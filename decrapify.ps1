@@ -10,6 +10,61 @@ If (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]:
 	Exit
 }
 
+## What this script does:
+# Defaults:
+#
+# By default this script has options enabled for a normal user.
+#
+#     Telemetry is disabled.
+#     Wi-Fi sense is disabled.
+#     SmartScreen Filter is disabled.
+#     Bing Search diabled in Start Menu.
+#     Location Tracking is disabled.
+#     Feedback is disabled.
+#     Advertising ID is disabled.
+#     Cortana is disabled.
+#     Restricted Windows Update P2P only to local network.
+#     Removed AutoLogger file and restrict directory.
+#     Stopped and disabled Diagnostics Tracking Service.
+#     Disabled Windows Update automatic restart.
+#     Stoped and disabled Home Groups services.
+#     Show known file extensions.
+#     Change default Explorer view to "Computer"
+#     Disabled OneDrive.
+#     It removes some of the bloatware bundled with Windows 10 :
+#         3DBuilder
+#         BingFinance
+#         BingNews
+#         BingSports
+#         BingWeather
+#         Getstarted
+#         People
+#         SkypeApp
+#         WindowsMaps
+#         WindowsPhone
+#         WindowsSoundRecorder
+#         AppConnector
+#         Messaging
+#         CommsPhone
+#         CandyCrushSodaSaga
+#         WindowsFeedbackHub
+#         Wallet
+#         GetHelp
+#         MixedReality
+#         Everything Office related.
+#         Everything Xbox related.
+#         WindowsCamera
+#     Disables all settings in Privacy Experience.
+#     Disable Remote Assistance
+#     Disable Remote Desktop
+
+
+## What further things this script can do:
+# Lower/Raise UAC level
+# Enable/Disable sharing mapped drives between users
+# Enable/Disable Firewall
+# Enable/Disable Windows Defender
+# 
 
 
 ##########
